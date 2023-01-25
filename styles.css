@@ -1,69 +1,64 @@
 /* styles.css */
 
-.box-1 {
-    background-image: url(img/chef.jpg);
-    background-size: cover; 
+
+.box1 {
+    background-image: url(img/images.jpeg);
+    background-repeat: repeat;
     background-position: center;
-    margin: 20px;  /* empty space outside element*/
-    width: 100px;
-    border: 10px solid rgb(8, 15, 72);
+    background-size: auto;
+    padding: 60px 0px 0px 0px;
+}
+
+.box2 {
+    background: white;
+    margin: 0px;  /* empty space around element*/
+    position: inherit;
+    border: 5px solid black;
          /*size, style, color*/
-    padding: 50px 200px 100px 25px; /*empty space inside element*/
-          /* top right bottom left */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    float: right;
+}
+
+.box3{
+  text-align: left;
 
 }
 
-.box-2 {
-    background: rgb(233, 113, 113);
-
-    margin: 20px;  /* empty space around element*/
-    width: 50px;
-   
-    border: 10px solid rgb(64, 72, 8);
-         /*size, style, color*/
-        
-    padding: 50px 200px 100px 25px; /*empty space with background around element*/
-          /* top right bottom left */
+a:link{
+    color:rgb(25, 0, 255);
 }
+a:visited{
+    color: black
+}
+a:hover,
+a:focus {
+    color: #555;
+/* normal color to use for hover.
+a:focus is for using tab.; */
+}
+
+
 
 body {
-    background-color: whitesmoke;
-    color:gold;
+    background-color: white;
+    color:black;
     font-size: 20px;
+    text-align: center;
 }
 
 p {color: black;
 }
 
-.intro{
-    background: blue;
-    width: 200px;
-}
-
-.about-me{
-    color: greenyellow;
-}
-
-.reference{
-    font-weight: bold;
-    color: blue;
-}
-
-span{
-    font-size: 50px;
-}
-
-.food{
-    font-size: 100px;
-    color: black;
-}
-
-h1 {font-size: 50px;
-    color: pink;
+h1 {font-size: 100px;
+    color: green;
+   
 }
 
 h2 {color: purple;
-}
+}   
 
 h3 {color: white;
 }
@@ -71,3 +66,13 @@ h3 {color: white;
 h4{
     color: firebrick;
 }
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+ul{
+    list-style: inside;
+    list-style-type: square;
+}
+
