@@ -1,6 +1,12 @@
 /* styles.css */
 
 
+.container {
+    margin: 0 auto;
+    width: 50%;
+    max width: 1000px;
+}
+
 .box1 {
     background-image: url(img/images.jpeg);
     background-repeat: repeat;
